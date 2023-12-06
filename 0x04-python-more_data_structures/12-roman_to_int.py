@@ -1,4 +1,3 @@
-12-roman_to_int.py
 #!/usr/bin/python3
 def to_subtract(list_num):
     to_sub = 0
