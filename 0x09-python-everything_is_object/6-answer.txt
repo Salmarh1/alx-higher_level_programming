@@ -1,1 +1,2 @@
-true
+#!/usr/bin/python3
+True
