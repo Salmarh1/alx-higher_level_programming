@@ -1,2 +1,2 @@
 -- Prints the full description of the table first_table.
-Show create table 'first_table';
+ Show create table 'first_table';
