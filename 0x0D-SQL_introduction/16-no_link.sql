@@ -3,4 +3,4 @@
 Select 'score', 'name'
 From 'second_table'
 Where 'name' != ""
-Order by 'score' desc;
+Order by 'score' desc
