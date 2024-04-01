@@ -5,6 +5,7 @@
 if __name__ == '__main__':
     from requests import post
     from sys import argv
+
     URL = 'http://0.0.0.0:5000/search_user'
     data = {'q': argv[1] if len(argv) >= 2 else ""}
     response = post(URL, data)
@@ -19,5 +20,6 @@ if __name__ == '__main__':
             print("[{}] {}".format(_id, name))
         else:
             print('No result')
+
         else:
             print('not a valid JSON')
