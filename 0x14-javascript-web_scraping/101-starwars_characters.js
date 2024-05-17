@@ -4,7 +4,7 @@ const request = require('request');
 const id = process.argv[2];
 const url = `https://swapi-api.alx-tools.com/api/films/${id}`;
 
-async function getCharacters() {
+async function getCharacters () {
   try {
     const response = await new Promise((resolve, reject) => {
       request.get(url, (error, response, body) => {
